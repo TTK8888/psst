@@ -52,11 +52,21 @@
 			);
 			target = 5931ACC72F00FF21006D76FF /* psstWidgetExtension */;
 		};
+		5931ACF92F012FD4006D76FF /* Exceptions for "psst" folder in "psstWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Shared/AppConstants.swift,
+			);
+			target = 5931ACC72F00FF21006D76FF /* psstWidgetExtension */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		5931ACB42F00E7DD006D76FF /* psst */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				5931ACF92F012FD4006D76FF /* Exceptions for "psst" folder in "psstWidgetExtension" target */,
+			);
 			path = psst;
 			sourceTree = "<group>";
 		};
